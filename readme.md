@@ -17,35 +17,51 @@
 
 <h3>Requirements.</h3>
 - Python==3.11+
+
 - loguru==0.7.2
+  
 - peewee==3.17.0
+  
 - pyTelegramBotAPI==4.14.0
+  
 - python-dotenv==1.0.0
+  
 - requests==2.31.0
 
 <h3>Для запуска бота необходимо:</h3>
+
 1. Скачать репозиторий на свой ПК.
+
 2. Создать среду разработки, используя 
 следующую команду в терминале:
+
 ```
 python -m venv venv
 ```
+
 3. Активировать виртуальную среду:
+
 ```
 venv\Scripts\activate
 ```
+
 4. Установить все зависимости:
+
 ```
 pip install -r requirements.txt
 ```
+
 5. Создать папку .env и вписать в неё ключи:
+
 ```
 BOT_TOKEN = "YourBotToken"
 RAPID_KEY = "YourRapidKey"
 RAPID_HOST = "hotels4.p.rapidapi.com"
 DB_PATH = 'user_history.db'
 ```
+
 6. Запустить проект командой:
+
 ```
 main.py
 ```
