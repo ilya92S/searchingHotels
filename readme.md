@@ -51,9 +51,10 @@ main.py
 ```
 
 <h3>Ключи.</h3>
-- **BOT_TOKEN** - необходимо получить в ТГ у бота https://t.me/BotFather. 
-- **RAPID_KEY** - можно получить 
-[здесь](https://rapidapi.com/apidojo/api/hotels4/), API 
+
+- **BOT_TOKEN** - необходимо получить в ТГ у бота https://t.me/BotFather.
+
+- **RAPID_KEY** - можно получить [здесь](https://rapidapi.com/apidojo/api/hotels4/), API 
 Hotels с недавних пор начал брать плату за запросы, 1$ - 
 500 запросов.
 
